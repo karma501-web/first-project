@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="charity.css">
+    </head>
+    <body>
+        <div id="fm">
+        <fieldset>
+            <legend><b>Your details</b></legend>
+            <form action="sub.php" method="POST">
+                <label>First name: <input type="tex" name="fName" placeholder="Enter your first.." required minlength="3" maxlength="10"></label>
+                <br><br>
+                <label>Surname: <input type="tex" name="sName" placeholder="Enter your surname" required maxlength="10" minlength="3"></label>
+                <br><br>
+                <label>Gender: <input type="radio" name="gender" value="M"> Male <input type="radio" name="gender" value="F"> Female </label>
+                <br><br>
+                <label>Mob number: <input type="number" name="tel" required></label><br><br>
+                <label>Date: <input type="date" name="date" required></label><br><br>
+                <label>Time: <input type="time" name="time" required></label></label>
+                <p style="text-align:center ;"><input style="background-color:blue ; color:white" type="submit" value="SUBMIT">
+                     <input style="background-color:blue ; color:white" type="reset"></p>
+
+            
+            </fieldset>
+        </form>
+        </div>
+        <p style="text-align:center ;"><a href="index.html">Back to home page</a></p>
+    </body>
+</html>
